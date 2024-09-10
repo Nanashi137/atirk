@@ -18,6 +18,6 @@ pip3 install torch torchvision torchaudio --index-url https://download.pytorch.o
  &nbsp;&nbsp;&nbsp;&nbsp;Parameters are in configs folder. <br>
  &nbsp;&nbsp;&nbsp;&nbsp;The model path parameters is the <save_path> after you run the conversion script. <br>
   **Usable model so far(tested)** <br>
-https://civitai.com/models/4201?modelVersionId=130072 <br>
-https://civitai.com/models/4201?modelVersionId=245598 <br>
-Other model with the same details(sd1.5 + safetensors) can most likely too 
+&nbsp;&nbsp;&nbsp;&nbsp;https://civitai.com/models/4201?modelVersionId=130072 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;https://civitai.com/models/4201?modelVersionId=245598 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;Other model with the same details(sd1.5 + safetensors) can most likely too 
