@@ -15,3 +15,5 @@ pip3 install torch torchvision torchaudio --index-url https://download.pytorch.o
  ```
  **Usage** <br> 
  &nbsp;&nbsp;&nbsp;&nbsp;Example in the debug section of atirk.py. <br>
+ &nbsp;&nbsp;&nbsp;&nbsp;Parameters are in configs folder. <br>
+ &nbsp;&nbsp;&nbsp;&nbsp;The model path parameters is the <save_path> after you run the conversion script. <br>
