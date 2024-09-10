@@ -8,7 +8,7 @@ pip3 install torch torchvision torchaudio --index-url https://download.pytorch.o
 **Download pretrained model:** <br>
  &nbsp;&nbsp;&nbsp;&nbsp;Download checkpoint from civitai folder. <br>
  &nbsp;&nbsp;&nbsp;&nbsp;Currently only support stable diffusion based model with safetensors extension. <br>
- &nbsp;&nbsp;&nbsp;&nbsp;Run convert_original_stable_diffusion_to_diffusers.py to convert diffusion to diffuser.
+ &nbsp;&nbsp;&nbsp;&nbsp;Run convert_original_stable_diffusion_to_diffusers.py to convert diffusion to diffuser. <br>
  &nbsp;&nbsp;&nbsp;&nbsp;Example: 
  ```
   python convert_original_stable_diffusion_to_diffusers.py --checkpoint_path checkpoints/<downloaded_model>.safetensors --dump_path <save_path>/ --from_safetensors --to_safetensors
