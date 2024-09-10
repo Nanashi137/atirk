@@ -11,7 +11,7 @@ pip3 install torch torchvision torchaudio --index-url https://download.pytorch.o
  &nbsp;&nbsp;&nbsp;&nbsp;Run convert_original_stable_diffusion_to_diffusers.py to convert diffusion to diffuser. <br>
  &nbsp;&nbsp;&nbsp;&nbsp;Example: 
  ```
-  python convert_original_stable_diffusion_to_diffusers.py --checkpoint_path <downloaded_model>.safetensors --dump_path <save_path>/ --from_safetensors --to_safetensors
+  python convert_original_stable_diffusion_to_diffusers.py --checkpoint_path <downloaded_model_path>.safetensors --dump_path <save_path>/ --from_safetensors --to_safetensors
  ```
  **Usage** <br> 
  &nbsp;&nbsp;&nbsp;&nbsp;Example in the debug section of atirk.py. <br>
