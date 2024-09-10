@@ -1,5 +1,5 @@
 import torch 
-from diffusers import DPMSolverMultistepScheduler, StableDiffusionInpaintPipeline
+from diffusers import DPMSolverMultistepScheduler, StableDiffusionInpaintPipeline, StableDiffusionXLInpaintPipeline
 from PIL import Image
 from torch import autocast
 import yaml
@@ -51,7 +51,7 @@ def inpaint(model, image_path, mask_path, config, seed=3119, device="cuda"):
 if __name__ == "__main__":
     device = "cuda" if torch.cuda.is_available() else "cpu"
     
-    config_path = "./configs/inpaint_text.yaml"
+    config_path = "./configs/sdxl.yaml"
 
     # init model
     model, config = init_pipeline(config_path=config_path)
